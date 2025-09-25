@@ -5,10 +5,10 @@ mkdir mycontainers
 ```
 #### packages
 ```
-pacman -S arch-install-scripts 
+sudo pacman -S arch-install-scripts 
 ```
 ```
-pacstrap -K -c mycontainers base 
+sudo pacstrap -K -c mycontainers base 
 ```
 #### set root password
 ```
