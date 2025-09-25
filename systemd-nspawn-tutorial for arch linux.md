@@ -5,7 +5,7 @@ mkdir mycontainers
 ```
 #### packages
 ```
-pacman -S arch-install packages
+pacman -S arch-install-scripts packages
 ```
 ```
 pacstrap -K -c mycontainers base 
