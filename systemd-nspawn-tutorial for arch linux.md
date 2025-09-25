@@ -12,7 +12,7 @@ sudo pacstrap -K -c mycontainers base
 ```
 #### set root password
 ```
-systemd-nspawn -D mycontainers
+sudo systemd-nspawn -D mycontainers
 ```
 ```
 passwd
@@ -22,7 +22,7 @@ logout
 ```
 #### booting the container
 ```
-systemd-nspawn -b -D mycontainers
+sudo systemd-nspawn -b -D mycontainers
 ```
 
 
